@@ -1,4 +1,4 @@
-AUTHOR: Marina Amadori and Gabriel Duarte-Luna
+AUTHORS: Marina Amadori and Gabriel Duarte-Luna
 
 Matlab codes for conversion of WRF output variables to space/time varying forcing files for Delft3D simulation.
 
