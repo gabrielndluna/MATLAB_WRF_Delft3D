@@ -19,8 +19,6 @@ function f_writefile_meteo(tgtpath,tgtbase,u,v,p,solr,c,rh,T,Date,startdate_num)
 startdate = datestr(startdate_num,'yyyy-mm-dd');
 kstart = 1; %modify kstart if not all available time series is meant to be written in the .scc file
 
-ncLAT = fullfile(tgtpath,['XLAT',tgtbase,'.nc']);
-ncLONG = fullfile(tgtpath,['XLONG',tgtbase,'.nc']);
 % prepare files for each output variable
 uwnd = fullfile(tgtpath,['meteo',tgtbase '.amu']);
 vwnd = fullfile(tgtpath,['meteo',tgtbase '.amv']);
